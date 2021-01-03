@@ -5,7 +5,7 @@ Docker image for BlankOn development purpose, agnostic against developer's opera
 ### Usage
 
 ```
-docker run -ti -v $HOME/irgsh:/home/blankon/.irgsh $HOME/.gnupg:/home/blankon/.gnupg blankoninfra/dev
+docker run -ti -v $HOME/.irgsh:/home/blankon/.irgsh -v $HOME/.gnupg:/home/blankon/.gnupg blankoninfra/dev
 ```
 
 Development packages like build-essential, devscripts, debhelper, irgsh-cli and other are ready to kick in.
